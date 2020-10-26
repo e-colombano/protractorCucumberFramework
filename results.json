@@ -1,0 +1,178 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Technical evaluation",
+    "line": 1,
+    "id": "technical-evaluation",
+    "tags": [],
+    "uri": "features\\technicalEvaluation.feature",
+    "elements": [
+      {
+        "id": "technical-evaluation;login-to-demo-page-and-find-an-object-using-a-condition-to-continue-and-log-out-or-throw-an-error-if-it-cannot-find-it.",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login to demo page and find an object using a condition to continue and log-out or throw an error if it cannot find it.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to login page",
+            "match": {
+              "location": "step_definitions\\stepDefinitions.js:8"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1015000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 1000 milliseconds\n    at Timeout._onTimeout (C:\\Users\\emili\\OneDrive\\Escritorio\\protractorCucumberFramework\\node_modules\\cucumber\\lib\\user_code_runner.js:76:18)\n    at listOnTimeout (internal/timers.js:554:17)\n    at processTimers (internal/timers.js:497:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "user completes <email> and <password>",
+            "match": {
+              "location": "step_definitions\\stepDefinitions.js:13"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks login button",
+            "match": {
+              "location": "step_definitions\\stepDefinitions.js:19"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should be redirected to my-account page",
+            "match": {
+              "location": "step_definitions\\stepDefinitions.js:24"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user logs out",
+            "match": {
+              "location": "step_definitions\\stepDefinitions.js:28"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "commons\\hook.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1012000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 1000 milliseconds\n    at Timeout._onTimeout (C:\\Users\\emili\\OneDrive\\Escritorio\\protractorCucumberFramework\\node_modules\\cucumber\\lib\\user_code_runner.js:76:18)\n    at listOnTimeout (internal/timers.js:554:17)\n    at processTimers (internal/timers.js:497:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "technical-evaluation;make-a-validation-on-a-behavior-or-on-the-existence-of-some-object-on-the-page",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Make a validation on a behavior or on the existence of some object on the page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "user is logged in",
+            "match": {
+              "location": "step_definitions\\stepDefinitions.js:35"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1016000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 1000 milliseconds\n    at Timeout._onTimeout (C:\\Users\\emili\\OneDrive\\Escritorio\\protractorCucumberFramework\\node_modules\\cucumber\\lib\\user_code_runner.js:76:18)\n    at listOnTimeout (internal/timers.js:554:17)\n    at processTimers (internal/timers.js:497:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user searchs for a product",
+            "match": {
+              "location": "step_definitions\\stepDefinitions.js:45"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the product should be displayed",
+            "match": {
+              "location": "step_definitions\\stepDefinitions.js:51"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "commons\\hook.js:4"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1005000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 1000 milliseconds\n    at Timeout._onTimeout (C:\\Users\\emili\\OneDrive\\Escritorio\\protractorCucumberFramework\\node_modules\\cucumber\\lib\\user_code_runner.js:76:18)\n    at listOnTimeout (internal/timers.js:554:17)\n    at processTimers (internal/timers.js:497:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

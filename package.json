@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Test framework",
+  "main": "conf.js",
+  "keywords": [
+    "test"
+  ],
+  "author": "Emiliano Colombano",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^7.0.0",
+    "cucumber": "6.0.5",
+    "protractor-cucumber-framework": "^6.2.0",
+    "cucumber-html-reporter": "^5.1.0",
+    "chai-as-promised": "^7.1.1",
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {}
+}
