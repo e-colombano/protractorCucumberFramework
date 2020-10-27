@@ -1,6 +1,6 @@
 Feature: Technical evaluation
 
-  Scenario: Login to demo page and find an object using a condition to continue and log-out or throw an error if it cannot find it.
+  Scenario: Login to demo
     Given user navigates to login page
     And user completes <email> and <password>
     When user clicks login button
