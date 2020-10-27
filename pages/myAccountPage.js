@@ -12,6 +12,10 @@ var myAccountPage = function () {
     await logoutButton.click();
   };
 
+  this.get = async function() {
+    await browser.get('http://automationpractice.com/index.php?controller=my-account');
+  };
+
   this.getUrl = function () {
     return url;
   };

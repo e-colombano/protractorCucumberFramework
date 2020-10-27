@@ -22,5 +22,9 @@ var loginPage = function () {
   this.getUrl = function () {
     return url;
   };
+
+  this.get = async function() {
+    await browser.get('http://automationpractice.com/index.php?controller=authentication&back=my-account');
+  };
 };
 module.exports = new loginPage();

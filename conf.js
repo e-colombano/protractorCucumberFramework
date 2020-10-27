@@ -46,7 +46,7 @@ onComplete: () => {
 //set cucumber options
 
 cucumberOpts: {
-     require: ['step_definitions/*.js','commons/*js'],
+     require: ['stepDefinitions/*.js','commons/*js'],
      strict: true,
      format: [],    //don't put 'Pretty' as it is deprecated
      'dry-run': false,
