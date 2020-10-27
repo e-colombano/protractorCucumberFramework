@@ -53,4 +53,4 @@ When('user searchs for a product', async function () {
 Then('the product should be displayed', async function () {
     await browser.wait(ExpectedConditions.textToBePresentInElement(myAccountPage.getProductName(), data.products.productName), 5000, `No se encontró el producto: ${data.products.productName}`);
     helpers.takeScreenshot();
-});
+}); 

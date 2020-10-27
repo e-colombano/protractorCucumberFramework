@@ -1,6 +1,6 @@
 Feature: Technical evaluation
 
-  Scenario: Login to demo
+  Scenario: Login to demo page
     Given user navigates to login page
     And user completes <email> and <password>
     When user clicks login button
