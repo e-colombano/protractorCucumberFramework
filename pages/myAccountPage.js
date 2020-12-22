@@ -1,4 +1,3 @@
-'use strict';
 
 var myAccountPage = function () {
   var url = 'http://automationpractice.com/index.php?controller=my-account';

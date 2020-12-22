@@ -41,7 +41,7 @@ Given('user is logged in', async function () {
     await loginPage.setUsername(data.userCredentials.userEmail);
     await loginPage.setPassword(data.userCredentials.password);
     await loginPage.submitLoginForm();
-    await browser.wait(ExpectedConditions.presenceOf(myAccountPage.getLogoutButton()), 5000, 'No se encontró el botón de logout, ogin fallido');
+    await browser.wait(ExpectedConditions.presenceOf(myAccountPage.getLogoutButton()), 5000, 'No se encontró el botón de logout, login fallido');
 });
 
 When('user searchs for a product', async function () {

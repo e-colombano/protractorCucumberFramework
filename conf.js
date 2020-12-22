@@ -1,4 +1,3 @@
-'use strict';
 
 exports.config = {
 
@@ -19,6 +18,7 @@ frameworkPath: require.resolve('protractor-cucumber-framework'),
 onPrepare: function(){
     browser.waitForAngularEnabled(false);
     browser.driver.manage().window().maximize();
+    browser.driver.ignoreSynchronization = true;
  } ,
 
 //Create html report

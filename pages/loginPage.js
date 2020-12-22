@@ -1,4 +1,3 @@
-'use strict';
 
 var loginPage = function () {
   var url = 'http://automationpractice.com/index.php?controller=authentication&back=my-account';
